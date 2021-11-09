@@ -27,8 +27,8 @@ function App() {
       {!joinedRoom ?
         (<div>
           <input type='text' placeholder='Enter your name' onChange={(e) => setUserName(e.target.value)} />
-          <input type='text' placeholder='Enter Room Name' onChange={(e) => setRoomName(e.target.value)} />
-          <button onClick={joinRoom} onKeyPress={(e) => e.key === 'Enter' && joinRoom()}>Join A Room</button>
+          <input type='text' placeholder='Enter Room Name' onChange={(e) => setRoomName(e.target.value)} onKeyPress={(e) => e.key === 'Enter' && joinRoom()} />
+          <button onClick={joinRoom}>Join A Room</button>
         </div>) :
         <Chat socket={socket} userName={userName} roomName={roomName} />
 
