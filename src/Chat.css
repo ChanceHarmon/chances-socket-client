@@ -1,0 +1,26 @@
+.chat-body{
+  width: 65%;
+  margin: 0 auto;
+  border: 1px solid silver;
+  border-radius: 3%;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+#my-message{
+  background-color: aqua;
+  border-radius: 1em;
+  width: 35%;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#others-message{
+  background-color: lightgreen;
+  border-radius: 1em;
+  width: 35%;
+  margin-left: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
