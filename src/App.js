@@ -7,7 +7,7 @@ import Chat from './Chat.js'
 
 // const socket = io.connect('http://localhost:3001')
 // Switch of local versus live deployment
-const socket = io.cconnect('https://chances-socket-server.herokuapp.com/')
+const socket = io.connect('https://chances-socket-server.herokuapp.com/')
 
 function App() {
 
